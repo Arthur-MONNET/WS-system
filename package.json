@@ -1,0 +1,25 @@
+{
+  "name": "ws-system",
+  "version": "1.0.0",
+  "description": "Node JS WS Server -> JS Client +-> Python Client",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "node server.js",
+    "serverdev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arthur-MONNET/WS-system.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Arthur-MONNET/WS-system/issues"
+  },
+  "homepage": "https://github.com/Arthur-MONNET/WS-system#readme",
+  "dependencies": {
+    "nodemon": "^2.0.22",
+    "ws": "^8.13.0"
+  }
+}
